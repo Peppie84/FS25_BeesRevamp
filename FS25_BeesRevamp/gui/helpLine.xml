@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<helpLines>
+  <category title="$l10n_beesrevamp_helpline_category">
+    <page title="$l10n_beesrevamp_helpline_page_1">
+      <paragraph>
+        <image filename="gui/helpline/helplineAtlas.png" uvs="0px 0px 1024px 368px" aspectRatio="0.35" />
+      </paragraph>
+      <paragraph>
+        <title text="$l10n_beesrevamp_helpline_page_1_paragraph_2_title" />
+        <text text="$l10n_beesrevamp_helpline_page_1_paragraph_2_text" />
+      </paragraph>
+    </page>
+    <page title="$l10n_beesrevamp_helpline_page_2">
+      <paragraph>
+        <title text="$l10n_beesrevamp_helpline_page_2_paragraph_1_title" />
+        <text text="$l10n_beesrevamp_helpline_page_2_paragraph_1_text" />
+      </paragraph>
+      <paragraph>
+        <text text="$l10n_beesrevamp_helpline_page_2_paragraph_2_text" />
+        <image filename="gui/helpline/helplineAtlas.png" uvs="0px 370px 274px 218px" aspectRatio="0.6" />
+      </paragraph>
+      <paragraph>
+        <title text="$l10n_beesrevamp_helpline_page_2_paragraph_3_title" />
+        <text text="$l10n_beesrevamp_helpline_page_2_paragraph_3_text" />
+      </paragraph>
+      <paragraph>
+        <text text="$l10n_beesrevamp_helpline_page_2_paragraph_4_text" />
+      </paragraph>
+      <paragraph>
+        <text text="$l10n_beesrevamp_helpline_page_2_paragraph_5_text" />
+      </paragraph>
+    </page>
+    <page title="$l10n_beesrevamp_helpline_page_3">
+      <paragraph>
+        <title text="$l10n_beesrevamp_helpline_page_3_paragraph_1_title" />
+        <text text="$l10n_beesrevamp_helpline_page_3_paragraph_1_text" />
+      </paragraph>
+      <paragraph>
+        <text text="$l10n_beesrevamp_helpline_page_3_paragraph_2_text" />
+        <image filename="gui/helpline/helplineAtlas.png" uvs="274px 370px 274px 218px" />
+      </paragraph>
+      <paragraph>
+        <text text="$l10n_beesrevamp_helpline_page_3_paragraph_3_text" />
+        <image filename="gui/helpline/helplineAtlas.png" uvs="548px 370px 274px 218px" />
+      </paragraph>
+      <paragraph>
+        <title text="$l10n_beesrevamp_helpline_page_3_paragraph_4_title" />
+        <text text="$l10n_beesrevamp_helpline_page_3_paragraph_4_text" />
+        <image filename="gui/helpline/helplineAtlas.png" uvs="0px 589px 274px 218px" />
+      </paragraph>
+    </page>
+    <page title="$l10n_beesrevamp_helpline_page_4">
+      <paragraph>
+        <title text="$l10n_beesrevamp_helpline_page_4_paragraph_1_title" />
+        <text text="$l10n_beesrevamp_helpline_page_4_paragraph_1_text" />
+      </paragraph>
+      <paragraph>
+        <text text="$l10n_beesrevamp_helpline_page_4_paragraph_2_text" />
+        <image filename="gui/helpline/helplineAtlas.png" uvs="274px 589px 274px 218px" />
+      </paragraph>
+      <paragraph>
+        <text text="$l10n_beesrevamp_helpline_page_4_paragraph_3_text" />
+        <image filename="gui/helpline/helplineAtlas.png" uvs="548px 589px 274px 218px" />
+      </paragraph>
+    </page>
+    <page title="$l10n_beesrevamp_helpline_page_5">
+      <paragraph>
+        <title text="$l10n_beesrevamp_helpline_page_5_paragraph_1_title" />
+        <text text="$l10n_beesrevamp_helpline_page_5_paragraph_1_text" />
+      </paragraph>
+    </page>
+    <!--page title="$l10n_beesrevamp_helpline_page_6">
+      <paragraph>
+        <text text="Text1" />
+      </paragraph>
+    </page-->
+  </category>
+</helpLines>

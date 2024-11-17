@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="92">
+  <author>Peppie84</author>
+  <version>1.0.0.0</version>
+  <title>
+    <en>Bees Revamp</en>
+  </title>
+  <description>
+    <en><![CDATA[
+With this mod, bees in Farming Simulator become more realistic and a bit more complex but also more productive.
+
+All values and changes are scientifically proven and/or perhaps slightly adjusted so that they do not completely kill the fun of the game. The focus will always be on having fun.
+
+Most questions can be answered by the in-game help of this mod.
+
+- Two states of a colony (young colony and economic colony)
+- Only the economic colony produces honey
+- Bees collect nectar
+- Bees only collect when the weather is good
+- Nectar is converted into honey
+- Bees eat nectar
+- Range of the beehives has been increased
+- Pollination performance improved
+- Beehive has a variable number of bees
+- Swarming season is between Mar-Jul
+- Prices of the beehives have been adjusted
+- Honey sales price has been adjusted
+
+Yield bonus for: Canola, Sunflower
+
+For more information, help, and reporting issues please visit <a href='https://github.com/Peppie84/FS25_BeesRevamp'>GitHub</a>.
+]]></en>
+    <de><![CDATA[
+Mit dieser Mod werden die Bienen im Landwirtschafts-Simulator realistischer und auch etwas komplexer aber dafür auch ertragreicher.
+
+Alle Werte und Änderungen sind wissenschaftlich belegt und oder vielleicht etwas angepasst, damit sie nicht ein kompletter Spielspaß-Killer werden. Im Vordergrund wird immer der Spielspaß stehen.
+
+Bitte schau Dir die Ingame-Hilfe zu dieser Mod an. Sie kann die meisten Fragen beantworten.
+
+- Zwei Zustände eines Volkes (Jungvolk und Wirtschaftsvolk)
+- Nur das Wirtschaftsvolk bringt Honig
+- Bienen sammeln Nektar
+- Bienen sammeln nur bei schönem Wetter
+- Nektar wird in Honig umgewandelt
+- Bienen fressen Nektar
+- Reichweite der Bienenstöcke wurde erhöht
+- Besteubungsleistung verbessert
+- Bienenstock hat eine variable Anzahl an Bienen
+- Zwischen Mär-Jul ist Schwarmzeit
+- Preise der Bienenstöcke wurden angepasst
+- Honigverkaufspreis wurde angepasst
+
+Ertragsbonus für: Raps, Sonnenblume
+
+Weitere Informationen, Hilfe und Probleme melden findest Du unter <a href='https://github.com/Peppie84/FS22_BeesRevamp'>GitHub</a>.
+]]></de>
+    <it><![CDATA[
+Con questa mod, le api in Farming Simulator diventano più realistiche e un po' più complesse ma anche più produttive.
+
+Tutti i valori e le modifiche sono scientificamente provati e/o forse leggermente regolati in modo che non uccidano completamente il divertimento del gioco. L'obiettivo sarà sempre il divertimento.
+
+La maggior parte delle domande può essere risolta dall'aiuto in-game di questa mod.
+
+- Due stati di una colonia (colonia giovane e colonia economica)
+- Solo la colonia economica produce miele
+- Le api raccolgono nettare
+- Le api raccolgono solo quando il tempo è buono
+- Il nettare viene convertito in miele
+- Le api mangiano nettare
+- La portata degli alveari è stata aumentata
+- Prestazioni di impollinazione migliorate
+- L'alveare ha un numero variabile di api
+- La stagione dello sciame è tra Mar-Lug
+- I prezzi degli alveari sono stati regolati
+- Il prezzo di vendita del miele è stato regolato
+
+Bonus di resa per: Colza, Girasole
+
+Per ulteriori informazioni, aiuto e segnalazione di problemi, visita <a href='https://github.com/Peppie84/FS22_BeesRevamp'>GitHub</a>.
+]]></it>
+  </description>
+  <iconFilename>icon_BeesRevamp.dds</iconFilename>
+  <multiplayer supported="true" />
+  <extraSourceFiles>
+    <sourceFile filename="src/main.lua" />
+  </extraSourceFiles>
+  <l10n filenamePrefix="translations/translation" />
+</modDesc>

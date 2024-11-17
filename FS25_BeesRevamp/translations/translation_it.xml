@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+  <translationContributors>FirenzeIT</translationContributors>
+  <elements>
+    <e k="beesrevamp_beecare_info_title_oxusim" v="Trattamento invernale"/>
+    <e k="beesrevamp_beecare_info_title_swarm_pressure" v="Pressione dello sciame"/>
+    <e k="beesrevamp_beecare_info_title_bee_population" v="Popolazione di api"/>
+    <e k="beesrevamp_beecare_info_title_state" v="Stato"/>
+    <e k="beesrevamp_beecare_info_bee_population_format" v="%s Api"/>
+    <e k="beesrevamp_beecare_do_swarm_control" v="Esegui controllo dello sciame"/>
+    <e k="beesrevamp_beecare_state_economic_hive" v="Colonia economica"/>
+    <e k="beesrevamp_beecare_state_young_hive" v="Colonia giovane"/>
+    <e k="beesrevamp_beecare_state_dead_hive" v="Morta"/>
+    <e k="beesrevamp_beecare_state_additional_swarmed" v="sciamato"/>
+    <e k="beesrevamp_beecare_common_state_on" v="Sì"/>
+    <e k="beesrevamp_beecare_common_state_off" v="No"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_title_nectar" v="Nettare"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_nectar_format" v="%s l"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_title_hives" v="Colonie"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_by_bees" v="Influenzato dalle api"/>
+    <e k="beesrevamp_beehivesystemextended_info_bee_bonus" v="Bonus api"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_hive_singular" v="Colonia eco."/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_hive_plural" v="Colonie eco."/>
+    <e k="beesrevamp_beehivesystemextended_info_title_bee_bonus_is_shrinking" v="Sovrabbondanza!"/>
+    <e k="beesrevamp_beehivesystemextended_info_bee_bonus_is_shrinking" v="Il bonus api si riduce"/>
+
+    <!-- HelpLine -->
+    <e k="beesrevamp_helpline_category" v="Bees Revamp"/>
+    <e k="beesrevamp_helpline_page_1" v="Panoramica"/>
+    <e k="beesrevamp_helpline_page_1_paragraph_2_title" v="Ciao e benvenuto al Mod Bees Revamp"/>
+    <e k="beesrevamp_helpline_page_1_paragraph_2_text" v="Con questo mod, le api in Farming Simulator 25 diventano più realistiche e un po' più complesse, ma anche più produttive.
+
+Sono un apicoltore amatoriale con 10 colonie al momento ed è un peccato che così pochi giochino con le api in Farming Simulator. Ecco perché ho iniziato a sviluppare questo mod nel 2023.
+
+Tutti i valori e le modifiche sono scientificamente provati e/o forse leggermente adattati in modo che non diventino un completo killer del divertimento. Il focus sarà sempre sul divertimento.
+
+- Due stati di una colonia (colonia giovane e colonia economica)
+- Solo la colonia economica produce miele
+- Le api raccolgono nettare
+- Le api raccolgono solo quando il tempo è buono
+- Il nettare viene convertito in miele
+- Le api mangiano nettare
+- Il raggio delle arnie è stato aumentato
+- Prestazioni di impollinazione migliorate
+- L'arnia ha un numero variabile di api
+- La stagione dello sciame è tra marzo e luglio
+- I prezzi delle arnie sono stati adattati
+- Il prezzo di vendita del miele è stato adattato
+
+Per ulteriori informazioni, aiuto e segnalazione di problemi, visita la pagina github di questo mod: https://github.com/Peppie84/FS22_BeesRevamp
+
+Spero che tutti vi divertiate con questo mod.
+
+- Dennis (Peppie84)"/>
+    <e k="beesrevamp_helpline_page_2" v="Comportamento delle api"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_title" v="Tutto inizia in piccolo..."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="Anche una colonia di api inizia in piccolo. Non appena posizioni un'arnia, la colonia inizia con lo stato: colonia giovane."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_2_text" v="Una colonia giovane ha bisogno di circa 1 anno per crescere in una colonia economica e solo allora produrrà miele per te.
+
+Ogni colonia ha un numero casuale di api non appena viene posizionata e viene ricalcolato ogni anno. La popolazione di api cresce nel periodo da marzo a luglio e diminuisce di nuovo in inverno. Nella visualizzazione delle informazioni di un'arnia puoi anche vedere quanto nettare le api hanno raccolto e non hanno ancora elaborato. Le api non raccolgono miele, ma nettare e lo convertono in miele nell'arnia. Maggiori informazioni su questo sotto Miele"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_3_title" v="Se il tempo è brutto, nessuno vola"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_3_text" v="Le api voleranno solo se:
+- il sole è sorto
+- ci sono almeno 10 gradi
+- non sta piovendo
+- non è un mese invernale
+
+Inoltre, il raggio è stato notevolmente aumentato. Nella vita reale, un'ape raccoglie entro un raggio di fino a 3 km. Pertanto, il raggio è stato esteso a 500 m."/>
+
+    <e k="beesrevamp_helpline_page_2_paragraph_4_text" v="Ci sono anche arnie che ospitano diverse colonie di api, ad esempio Arnia (10 Langstroth). Tuttavia, al momento non vengono simulate 10 colonie individuali, ma tutto viene calcolato come una singola colonia. Tuttavia, il numero di colonie viene utilizzato per il calcolo del bonus di resa successivo."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_5_text" v="D'ora in poi, la colonia di api mangerà anche il nettare raccolto ogni ora. Ma non preoccuparti se il livello di nettare scende a 0. Le api non moriranno di fame. Ma se hai solo tempo piovoso, la produzione di miele cambierà drasticamente per l'anno in corso."/>
+    <e k="beesrevamp_helpline_page_3" v="Sciamatura"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_1_title" v="Se la scatola è troppo stretta, le api vogliono sciamare"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_1_text" v="Tra marzo e luglio la colonia cresce molto rapidamente. Se l'apicoltore non espande l'arnia durante questo periodo, diventerà rapidamente molto angusta. Inoltre, a un certo punto subentra la 'noia' e le colonie vogliono sciamare via."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_2_text" v="La sciamatura è la divisione naturale di una colonia. Per l'apicoltore, tuttavia, ciò significa uno svantaggio nella raccolta del miele per quest'anno se circa la metà delle api è sciamata via.
+
+Nella vita reale, l'apicoltore dovrebbe controllare la colonia ogni 7 giorni tra marzo e luglio; nel gioco, una volta al mese è sufficiente. C'è una probabilità del 25% che una colonia non sviluppi 'pressione dello sciame'."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_3_text" v="Devi camminare fino a ogni arnia e vedere se ha 'pressione dello sciame' e quindi eseguire un'azione con 'R'. Anche se giochi con diversi giorni al mese, hai la possibilità di eseguire il controllo dello sciame per tutto il mese."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_4_title" v="Colonia sciamata"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_4_text" v="Se la colonia è sciamata, il 50% delle api viene portato via e questo significa una bassa produzione di miele per il resto dell'anno. Questo stato viene resettato solo al cambio dell'anno."/>
+    <e k="beesrevamp_helpline_page_4" v="Bonus di resa"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_1_title" v="Nuovo bonus di resa per le colture da campo"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_1_text" v="Con questo mod, non basta semplicemente mettere una colonia di api da qualche parte, ma si tratta anche di un certo numero di colonie per ettaro per un buon bonus di resa.
+
+La tabella seguente mostra quali sono i nuovi bonus di resa:
+
+Frutto             max. bonus di resa             Colonie per ettaro
+Canola               30%                            3 colonie/ha
+Girasole                 80%                        4 colonie/ha
+Patata                 0%                           -
+
+Le colonie di api con lo stato: colonia giovane sono completamente escluse da questo calcolo. Questo impedisce di posizionare le colonie di api sul campo poco prima del raccolto e quindi ricevere un bonus."/>
+    <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="Le informazioni sul campo ora ti mostrano quante colonie di api sono vicine al campo, che siano tue o di altri giocatori, e quale bonus di resa puoi aspettarti."/>
+    <e k="beesrevamp_helpline_page_4_paragraph_3_text" v="Ma fai attenzione, puoi anche sovraccaricare un campo, il che avrà un impatto negativo poiché perderai di nuovo il bonus di resa." />
+    <e k="beesrevamp_helpline_page_5" v="Miele"/>
+    <e k="beesrevamp_helpline_page_5_paragraph_1_title" v="Molte api fanno molto miele"/>
+    <e k="beesrevamp_helpline_page_5_paragraph_1_text" v="La quantità di miele non è più determinata da quale arnia hai posizionato, ma da diversi fattori.
+
+Quando il tempo è buono, in media due terzi delle api in un'arnia raccolgono nettare e un terzo rimane nell'arnia e si prende cura delle api neonate e converte il nettare in miele, cioè più api ci sono, più nettare/miele viene prodotto.
+
+Non appena il sole è tramontato e le operazioni di volo si fermano, tutte le api convertiranno il nettare in miele. Il miele può essere prodotto solo se c'è nettare. Il nettare non viene convertito in miele 1:1. Tre parti di nettare fanno una parte di miele. La conversione del nettare in miele si ferma per il mese invernale, quindi consumano solo nettare in inverno.
+
+Se piove a lungo e le api non possono volare fuori, non entrerà nuovo nettare nell'arnia e quindi non potrà essere prodotto miele.
+
+Le api hanno anche bisogno di cibo. Lo prendono semplicemente dal nettare raccolto. Se il valore del nettare scende a 0, le api non moriranno."/>
+    <e k="beesrevamp_helpline_page_6" v="Trattamento invernale"/>
+
+  </elements>
+</l10n>

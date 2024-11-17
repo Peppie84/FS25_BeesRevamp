@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+  <translationContributors>Maca</translationContributors>
+  <elements>
+    <e k="beesrevamp_beecare_info_title_oxusim" v="Zimní ošetření"/>
+    <e k="beesrevamp_beecare_info_title_swarm_pressure" v="Roj"/>
+    <e k="beesrevamp_beecare_info_title_bee_population" v="Včelí populace"/>
+    <e k="beesrevamp_beecare_info_title_state" v="Status"/>
+    <e k="beesrevamp_beecare_info_bee_population_format" v="%s Včely"/>
+    <e k="beesrevamp_beecare_do_swarm_control" v="Proveďte kontrolu roje"/>
+    <e k="beesrevamp_beecare_state_economic_hive" v="Ekonomická kolonie"/>
+    <e k="beesrevamp_beecare_state_young_hive" v="Mladá kolonie"/>
+    <e k="beesrevamp_beecare_state_dead_hive" v="Mrtvé"/>
+    <e k="beesrevamp_beecare_state_additional_swarmed" v="rojení"/>
+    <e k="beesrevamp_beecare_common_state_on" v="Ano"/>
+    <e k="beesrevamp_beecare_common_state_off" v="Ne"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_title_nectar" v="Nektar"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_nectar_format" v="%s l"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_title_hives" v="Kolonie"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_by_bees" v="Ovlivněno včelami"/>
+    <e k="beesrevamp_beehivesystemextended_info_bee_bonus" v="Bonus od včel"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_hive_singular" v="Eco. Úl"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_hive_plural" v="Eco. Úly"/>
+    <e k="beesrevamp_beehivesystemextended_info_title_bee_bonus_is_shrinking" v="Nadměrně zásobeno!"/>
+    <e k="beesrevamp_beehivesystemextended_info_bee_bonus_is_shrinking" v="Bonus se zmenšuje"/>
+
+    <!-- HelpLine -->
+    <e k="beesrevamp_helpline_category" v="Renovace včel"/>
+    <e k="beesrevamp_helpline_page_1" v="Přehled"/>
+    <e k="beesrevamp_helpline_page_1_paragraph_2_title" v="Ahoj a vítejte v Bees Revamp Mod"/>
+    <e k="beesrevamp_helpline_page_1_paragraph_2_text" v="S tímto modem se včely ve Farming Simulator 25 stanou realističtějšími a o něco složitějšími, ale také produktivnějšími..
+
+Momentálně jsem hobby včelař s 10 včelstvy a je škoda, že si se včelami ve Farming Simulator tak málo hraje. Proto jsem v roce 2023 začal vyvíjet tento mod.
+
+Všechny hodnoty a změny jsou vědecky ověřené a/nebo možná mírně upravené, aby se z nich nestal úplný zabiják zábavy. Důraz bude vždy kladen na zábavu.
+
+- Dva stavy kolonie (mladá kolonie a ekonomická kolonie)
+- Pouze ekonomická kolonie produkuje med
+- Včely sbírají nektar
+- Včely sbírají pouze za příznivého počasí
+- Nektar se přeměňuje na med
+- Včely jedí nektar
+- Dosah úlů byl rozšířen
+- Zlepšení opylování
+- Včelí úl má proměnlivý počet včel
+- Rojová sezóna je mezi březnem a červencem
+- Ceny úlů byly upraveny
+- Prodejní cena medu byla upravena
+
+Pro více informací, nápovědu a hlášení problémů navštivte stránku github tohoto modu: https://github.com/Peppie84/FS22_BeesRevamp
+
+Doufám, že se s tímto modem všichni pobavíte.
+
+- Dennis (Peppie84)"/>
+    <e k="beesrevamp_helpline_page_2" v="Chování včel"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_title" v="Všechno začíná v malém ..."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="Včelstvo také začíná v malém. Jakmile umístíte úl, včelstvo začíná stavem: mladé včelstvo."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_2_text" v="Mladá včelstva potřebuje asi 1 rok, aby vyrostla v ekonomickou kolonii a teprve poté vám bude produkovat med.
+
+Každé včelstvo má náhodný počet včel, jakmile je umístěno, a každý rok se převaluje. Včelí populace v období od března do července roste a v zimě opět klesá. Na informačním displeji úlu můžete také vidět, kolik nektaru včely nasbíraly a ještě nezpracovaly. Včely nesbírají med, ale nektar a v úlu ho přeměňují na med. Více o tom pod Med"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_3_title" v="Pokud je špatné počasí, nikdo nelétá"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_3_text" v="Včely budou létat pouze tehdy:
+- vyšlo slunce
+- je minimálně 10 stupňů
+- neprší
+- není zimní měsíc
+
+Kromě toho byl také masivně zvýšen dolet. V reálném životě se včela sbírá v okruhu až 3 km. Dosah byl proto prodloužen na 500 m."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_4_text" v="Existují také úly, ve kterých je umístěno několik včelstev, např. Včelí úl (10 Langstroth). V tuto chvíli však není simulováno 10 jednotlivých kolonií, ale vše se počítá jako jedna kolonie. Počet kolonií se však používá pro pozdější výpočet bonusu k výnosu."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_5_text" v="Nasbíraný nektar budou od nynějška každou hodinu konzumovat i včely. Ale nebojte se, pokud hladina nektaru klesne na 0, včely hlady neumřou. Pokud ale máte pouze deštivé počasí, produkce medu se pro aktuální rok dramaticky změní."/>
+    <e k="beesrevamp_helpline_page_3" v="Rojení"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_1_title" v="Pokud je úl příliš malý, včely se budou chtít vyrojit"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_1_text" v="Mezi březnem a červencem kolonie roste velmi rychle. Pokud včelař během této doby úl nerozšíří, rychle se stane velmi stísněným. Navíc v určitém okamžiku nastane „nuda“ a kolonie se chtějí vyrojit pryč."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_2_text" v="Rojení je přirozené dělení kolonie. Pro včelaře to ale znamená nevýhodu při medobraní pro letošní rok, pokud se asi polovina včel vyrojila..
+
+V reálném životě by měl včelař kontrolovat včelstvo každých 7 dní od března do července; ve hře, stačí jednou za měsíc. Existuje 25% šance, že kolonie nevyvine „tlak roje“."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_3_text" v="Musíte dojít ke každému úlu a zjistit, zda má „tlak roje“ a pak provést akci s „R“. I když hrajete s několika dny v měsíci, máte možnost provádět kontrolu roje po celý měsíc."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_4_title" v="Kolonie se vyrojila"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_4_text" v="Pokud se včelstvo vyrojilo, 50 % včel je odebráno a to znamená nízkou produkci medu po zbytek roku. Tento stav se resetuje až na přelomu roku."/>
+    <e k="beesrevamp_helpline_page_4" v="Výnosový bonus"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_1_title" v="Nový výnosový bonus pro polní plodiny"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_1_text" v="U tohoto modu nestačí včelstvo jen někam postavit, ale jde i o určitý počet včelstev na hektar pro dobrý výnosový bonus.
+
+Následující tabulka ukazuje, jaké jsou nové výnosové bonusy:
+
+Plodina            max. bonus k výnosu             kolonie na hektar
+Řepka                      30%                        3 kolonie/ha
+Slunečnice                 80%                        4 kolonie/ha
+Brambory                   0%                           -
+
+Včelstva se statusem: mladé včelstvo jsou z tohoto výpočtu zcela vyloučena. To vám zabrání umístit včelstva na pole krátce před sklizní a získat tak bonus."/>
+    <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="Informace o poli vám nyní ukazují, kolik včelstev je v blízkosti pole, ať už vašich vlastních nebo jiných hráčů, a jaký bonus k výnosu můžete očekávat."/>
+    <e k="beesrevamp_helpline_page_4_paragraph_3_text" v="Ale buďte opatrní, můžete také pole přetížit, což bude mít negativní dopad, protože opět ztratíte výnosový bonus." />
+    <e k="beesrevamp_helpline_page_5" v="Med"/>
+    <e k="beesrevamp_helpline_page_5_paragraph_1_title" v="Mnoho včel vyrábí spoustu medu"/>
+    <e k="beesrevamp_helpline_page_5_paragraph_1_text" v="O množství medu již nerozhoduje, jaký úl jste umístili, ale více faktorů.
+
+Když je dobré počasí, průměrně dvě třetiny včel v úlu sbírají nektar a jedna třetina zůstává v úlu a stará se o včelí mláďata a přeměňuje nektar na med, tj. čím více včel, tím více nektaru/medu vyrobeno.
+
+Jakmile slunce zapadne a letový provoz se zastaví, všechny včely přemění nektar na med. Med lze produkovat pouze tehdy, existuje-li nektar. Nektar se nepřevádí na med 1:1. Tři díly nektaru tvoří jeden díl medu. Přeměna nektaru na med se na zimní měsíc zastaví, takže nektar konzumují pouze v zimě.
+
+Pokud dlouho prší a včely nemohou vyletět, do úlu nepřijde nový nektar a nelze tedy produkovat med.
+
+Včely také potřebují jídlo. Jednoduše to berou z nasbíraného nektaru. Pokud hodnota nektaru klesne na 0, včely neuhynou."/>
+    <e k="beesrevamp_helpline_page_6" v="Zimní ošetření"/>
+  </elements>
+</l10n>

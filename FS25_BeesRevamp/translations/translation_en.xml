@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+  <translationContributors>Peppie84</translationContributors>
+  <elements>
+    <e k="beesrevamp_beecare_info_title_oxusim" v="Winter treatment"/>
+    <e k="beesrevamp_beecare_info_title_swarm_pressure" v="Schwarm pressure"/>
+    <e k="beesrevamp_beecare_info_title_bee_population" v="Bee population"/>
+    <e k="beesrevamp_beecare_info_title_state" v="State"/>
+    <e k="beesrevamp_beecare_info_bee_population_format" v="%s Bees"/>
+    <e k="beesrevamp_beecare_do_swarm_control" v="Execute swarm control"/>
+    <e k="beesrevamp_beecare_state_economic_hive" v="Economic colony"/>
+    <e k="beesrevamp_beecare_state_young_hive" v="Young colony"/>
+    <e k="beesrevamp_beecare_state_dead_hive" v="Dead"/>
+    <e k="beesrevamp_beecare_state_additional_swarmed" v="swarmed"/>
+    <e k="beesrevamp_beecare_common_state_on" v="Yes"/>
+    <e k="beesrevamp_beecare_common_state_off" v="No"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_title_nectar" v="Nectar"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_nectar_format" v="%s l"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_title_hives" v="Colonies"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_by_bees" v="Influenced by Bees"/>
+    <e k="beesrevamp_beehivesystemextended_info_bee_bonus" v="Bee Bonus"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_hive_singular" v="Eco. Hive"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_hive_plural" v="Eco. Hives"/>
+    <e k="beesrevamp_beehivesystemextended_info_title_bee_bonus_is_shrinking" v="Oversupplied!"/>
+    <e k="beesrevamp_beehivesystemextended_info_bee_bonus_is_shrinking" v="Bee bonus shrinks"/>
+
+    <!-- HelpLine -->
+    <e k="beesrevamp_helpline_category" v="Bees Revamp"/>
+    <e k="beesrevamp_helpline_page_1" v="Overview"/>
+    <e k="beesrevamp_helpline_page_1_paragraph_2_title" v="Hello and welcome to the Bees Revamp Mod"/>
+    <e k="beesrevamp_helpline_page_1_paragraph_2_text" v="With this mod, bees in Farming Simulator 25 become more realistic and a bit more complex, but also more productive.
+
+I am a hobby beekeeper with 10 colonies at the moment and it's a shame that so little is playing with bees in Farming Simulator. That's why I started developing this mod in 2023.
+
+All values and changes are scientifically proven and/or perhaps slightly adjusted so that they don't become a complete fun killer. The focus will always be on having fun.
+
+- Two states of a colony (young colony and economic colony)
+- Only the economic colony produces honey
+- Bees collect nectar
+- Bees only collect when the weather is good
+- Nectar is converted into honey
+- Bees eat nectar
+- Range of the beehives has been increased
+- Pollination performance improved
+- Beehive has a variable number of bees
+- Swarming season is between Mar-Jul
+- Prices of the beehives have been adjusted
+- Honey sales price has been adjusted
+
+For more information, help, and reporting issues please visit the github page of this mod: https://github.com/Peppie84/FS25_BeesRevamp
+
+I hope you all have fun with this mod.
+
+- Dennis (Peppie84)"/>
+    <e k="beesrevamp_helpline_page_2" v="Bee behavior"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_title" v="Everything starts small..."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="A bee colony also starts small. As soon as you place a beehive, the colony starts with the status: young colony."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_2_text" v="A young colony needs about 1 year to grow into a economy colony and only then will it produce honey for you.
+
+Each colony has a random number of bees as soon as it is placed and is re-rolled every year. The bee population grows over the period from March to July and decreases again in winter. In the information display of a beehive you can also see how much nectar the bees have collected and have not yet processed. Bees do not collect honey, but nectar and convert it into honey in the hive. More on this under Honey"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_3_title" v="If the weather is bad, nobody flies"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_3_text" v="The bees will only fly if:
+- the sun has risen
+- it is at least 10 degrees
+- it is not raining
+- it is not a winter month
+
+In addition, the range has also been massively increased. In real life, a bee collects within a radius of up to 3km. Therefore, the range has been extended to 500m."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_4_text" v="There are also beehives that house several bee colonies, e.g. Beehive (10 Langstroth). However, 10 individual colonies are not simulated at the moment, but everything is calculated as a single colony. However, the number of colonies is used for the later yield bonus calculation."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_5_text" v="From now on, the bee colony will also eat the collected nectar every hour. But don't worry if the nectar level drops to 0. The bees won't starve to death. But if you only have rainy weather, honey production will change dramatically for the current year."/>
+    <e k="beesrevamp_helpline_page_3" v="Swarming"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_1_title" v="If the box is too narrow, the bees want to swarm"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_1_text" v="Between March and July the colony grows very rapidly. If the beekeeper does not expand the hive during this time, it will quickly become very cramped. In addition, at some point 'boredom' kicks in and the colonies want to swarm away."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_2_text" v="Swarming is the natural division of a colony. For the beekeeper, however, this means a disadvantage in the honey harvest for this year if about half of the bees have swarmed away.
+
+In real life, the beekeeper should check the colony every 7 days between March and July; in-game, once a month is enough. There is a 25% chance that a colony will not develop 'swarm pressure'."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_3_text" v="You have to walk to each hive and see if it has 'swarm pressure' and then perform an action with 'R'. Even if you play with several days per month, you have the opportunity to carry out swarm control throughout the entire month."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_4_title" v="Colony swarmed"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_4_text" v="If the colony has swarmed, 50% of the bees are taken away and this means a low honey production for the rest of the year. This status is only reset at the turn of the year."/>
+    <e k="beesrevamp_helpline_page_4" v="Yield bonus"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_1_title" v="New yield bonus for field crops"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_1_text" v="With this mod, it's not enough to just put a bee colony somewhere, but it's also about a certain number of colonies per hectare for a good yield bonus.
+
+The following table shows what the new yield bonuses are:
+
+Fruit             max. yield bonus             Colonies per hectare
+Canola                        30%                            3 colonies/ha
+Sunflower           80%                        4 colonies/ha
+Potato                    0%                           -
+
+Bee colonies with the status: young colony are completely excluded from this calculation. This prevents you from placing the bee colonies on the field shortly before the harvest and thus receiving a bonus."/>
+    <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="The field info now shows you how many bee colonies are near the field, whether your own or those of other players, and what yield bonus you can expect."/>
+    <e k="beesrevamp_helpline_page_4_paragraph_3_text" v="But be careful, you can also oversupply a field, which will have a negative impact as you will lose yield bonus again." />
+    <e k="beesrevamp_helpline_page_5" v="Honey"/>
+    <e k="beesrevamp_helpline_page_5_paragraph_1_title" v="Many bees make lots of honey"/>
+    <e k="beesrevamp_helpline_page_5_paragraph_1_text" v="The amount of honey is no longer determined by which hive you have placed, but by several factors.
+
+When the weather is good, an average of two thirds of the bees in a hive collect nectar and one third stays in the hive and looks after the baby bees and converts the nectar into honey, i.e. the more bees, the more nectar/honey is produced.
+
+As soon as the sun has set and the flight operations stop, all the bees will convert the nectar into honey. Honey can only be produced as there is nectar. The nectar is not converted into honey 1:1. Three parts nectar make one part honey. The conversion of nectar into honey stops for the winter month, so they only consume nectar on winter.
+
+If it rains for a long time and the bees cannot fly out, no new nectar will come into the hive and therefore no honey can be produced.
+
+Bees also need food. They simply take this from the collected nectar. If the nectar value drops to 0, the bees will not die."/>
+    <e k="beesrevamp_helpline_page_6" v="Winter treatment"/>
+
+  </elements>
+</l10n>

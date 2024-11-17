@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+  <translationContributors>Peppie84</translationContributors>
+  <elements>
+    <e k="beesrevamp_beecare_info_title_oxusim" v="Winterbehandlung"/>
+    <e k="beesrevamp_beecare_info_title_swarm_pressure" v="Schwarmlustig"/>
+    <e k="beesrevamp_beecare_info_title_bee_population" v="Bienenpopulation"/>
+    <e k="beesrevamp_beecare_info_title_state" v="Status"/>
+    <e k="beesrevamp_beecare_info_bee_population_format" v="%s Bienen"/>
+    <e k="beesrevamp_beecare_do_swarm_control" v="Schwarmkontrolle durchführen"/>
+    <e k="beesrevamp_beecare_state_economic_hive" v="Wirtschaftsvolk"/>
+    <e k="beesrevamp_beecare_state_young_hive" v="Jungvolk"/>
+    <e k="beesrevamp_beecare_state_dead_hive" v="Dead"/>
+    <e k="beesrevamp_beecare_state_additional_swarmed" v="abgeschwärmt"/>
+    <e k="beesrevamp_beecare_common_state_on" v="Ja"/>
+    <e k="beesrevamp_beecare_common_state_off" v="Nein"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_title_nectar" v="Nektar"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_nectar_format" v="%s l"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_title_hives" v="Völker"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_by_bees" v="Beeinflusst von Bienen"/>
+    <e k="beesrevamp_beehivesystemextended_info_bee_bonus" v="Bonus durch Bienen"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_hive_singular" v="Wirt.Volk"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_hive_plural" v="Wirt.Völker"/>
+    <e k="beesrevamp_beehivesystemextended_info_title_bee_bonus_is_shrinking" v="Überversorgt!"/>
+    <e k="beesrevamp_beehivesystemextended_info_bee_bonus_is_shrinking" v="Bienen Bonus schrumpft"/>
+
+    <!-- HelpLine -->
+    <e k="beesrevamp_helpline_category" v="Bees Revamp"/>
+    <e k="beesrevamp_helpline_page_1" v="Übersicht"/>
+    <e k="beesrevamp_helpline_page_1_paragraph_2_title" v="Hallo und Willkommen zur Bees Revamp Mod"/>
+    <e k="beesrevamp_helpline_page_1_paragraph_2_text" v="Mit dieser Mod werden die Bienen im Landwirtschafts-Simulator 25 realistischer und auch etwas komplexer aber dafür auch ertragreicher.
+
+Ich selbst bin Hobbyimker mit derzeit 10 Völker und finde es schade, dass so wenig im Landwirtschafts-Simulator mit Bienen gemacht wird. Daher hatte ich 2023 begonnen diese Mod zu entwickeln.
+
+Alle Werte und Änderungen sind wissenschaftlich belegt und oder vielleicht etwas angepasst, damit sie nicht ein kompletter Spielspaß-Killer werden. Im Vordergrund wird immer der Spielspaß stehen.
+
+- Zwei Zustände eines Volkes (Jungvolk und Wirtschaftsvolk)
+- Nur das Wirtschaftsvolk bringt Honig
+- Bienen sammeln Nektar
+- Bienen sammeln nur bei schönem Wetter
+- Nektar wird in Honig umgewandelt
+- Bienen fressen Nektar
+- Reichweite der Bienenstöcke wurde erhöht
+- Besteubungsleistung verbessert
+- Bienenstock hat eine variable Anzahl an Bienen
+- Zwischen Mär-Jul ist Schwarmzeit
+- Preise der Bienenstöcke wurden angepasst
+- Honigverkaufspreis wurde angepasst
+
+Falls Du Fehler oder Anregungen melden oder Hilfe benötigst, dann komm auf die Github-Seite von dieser Mod unter: https://github.com/Peppie84/FS22_BeesRevamp
+
+Ich wünsche euch allen viel Spaß mit der Mod.
+
+- Dennis (Peppie84)"/>
+    <e k="beesrevamp_helpline_page_2" v="Bienen verhalten"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_title" v="Alles fängt mal klein an ..."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="Auch ein Bienenvolk fängt klein an. Sobald Du ein Bienenstock platzierst, fängt das Volk im Status: Jungvolk an."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_2_text" v="Ein Jungvolk benötigt etwa 1 Jahr bis es zu einem Wirtsschaftsvolk herangewachsen ist und erst dann wird es Dir auch Honig bringen.
+
+Jedes Volk hat eine zufällige Menge an Bienen sobald es platziert wird und wird jedes Jahr neu ausgewürfelt. Die Bienenpopulation wächst über den Zeitrtraum von Mär-Jul und nimmt zum Winter wieder ab. In der Infoanzeige eines Bienenstocks kannst du auch sehen wie viel Nektar die Bienen gesammelt und noch nicht verarbeitet, haben. Bienen sammeln keinen Honig, sondern Nektar und wandeln diesen im Stock in Honig um. Mehr dazu unter Honig"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_3_title" v="Wenn das Wetter nicht passt, fliegt niemand"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_3_text" v="Die Bienen werden nur noch fliegen wenn:
+- die Sonne aufgegangen ist
+- es mindestens 10 Grad ist
+- es nicht regnet
+- es kein Wintermonat ist
+
+Zusätzlich wurde auch die Reichweite massiv erhöht. Ein Biene sammelt im real-life in einem Umkreis von bis zu 3km. Daher wurde die Reichweite auf 500m erweitert."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_4_text" v="Es gibt auch Bienenstöcke die mehrere Bienenvölker beherbergen, z.B. Beehive (10 Langstroth). Es werden aber derzeit nicht 10 einzelne Völker simuliert sondern alles wie ein einziges Volk berechnet. Für die spätere Ertragsbonus-Berechnung wird aber die Völkeranzahl benutzt."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_5_text" v="Das Bienenvolk wird ab sofort auch stündlich vom gesammelten Nektar essen. Aber keine Angst wenn der Nektar-Wert auf 0 fällt. Die Bienen verhungern erst mal nicht. Wenn man aber nur Regenwetter hat, dann wird sich die Honigproduktion in einem Jahr schon sehr massiv verändern."/>
+    <e k="beesrevamp_helpline_page_3" v="Schwarm"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_1_title" v="Ist die Kiste zu eng, dann wollen die Bienen schwärmen"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_1_text" v="Zwischen Mär-Jul wächst das Volk sehr stark. Wenn der Imker in dieser Zeit den Bienenstock nicht erweitert, dann wird es sehr schnell sehr eng. Zudem stellt sich irgendwann 'Langeweile' ein und dann wollen die Völker abschwärmen."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_2_text" v="Das schwärmen ist die natürliche Teilung eines Volkes. Für den Imker bedeutet dies aber ein Nachteil in der Honigernte für dieses Jahr, wenn etwa die Hälfte der Bienen abgeschwärmt sind.
+
+Im real-life sollte der Imker alle 7 Tage zwischen Mär-Jul das Volk kontrollieren, in-game langt einmal pro Monat. Es besteht die Möglichkeit von 25% das ein Volk keinen 'Schwarm druck' entwickelt."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_3_text" v="Man muss zu jedem Bienenstock hinlaufen und schauen ob dieser 'Schwarm druck' hat und dann eine Aktion mit 'R' ausführen. Auch wenn du mit mehreren Tagen pro Monat spielst, hast du hier den ganzen Monat die Möglichkeit die Schwarmkontrolle durchzuführen."/>
+    <e k="beesrevamp_helpline_page_3_paragraph_4_title" v="Volk geschwärmt"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_4_text" v="Ist das Volk abgeschwärmt, dann werden ihm 50% der Bienen abgezogen und dies bedeutet nur noch eine schwache Honigleistung. Dieser Status wird erst zum Jahreswechsel wieder zurückgesetzt."/>
+    <e k="beesrevamp_helpline_page_4" v="Ertragsbonus"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_1_title" v="Neuer Ertragsbonus für Feldfrüchte"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_1_text" v="Mit dieser Mod langt es nicht einfach nur ein Bienenvolk irgendwo hinzustellen, sondern es geht auch um eine gewissen Anzahl Völker pro Hektar für einen guten Ertragsbonus.
+
+Folgende Tabelle soll zeigen wie die neuen Ertragsboni sind:
+
+Frucht            max. Ertragsbonus            Völker pro Hektar
+Raps                        30%                            3 Völker/ha
+Sonnenblume           80%                        4 Völker/ha
+Kartoffel                    0%                           -
+
+Bienenvölker im Status: Jungvolk, fallen aus dieser Berechnung komplett raus. Somit wird verhindert, dass man die Bienenvölker kurz vor der Ernte an das Feld stellt und somit einen Bonus bekommt."/>
+    <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="In der Feldinfo bekommst du nun auch angezeigt wie viele Bienenvölker sich in Feldnähe befinden, egal ob die eigenen oder von anderen Mitspielern und welcher Ertragsbonus zu erwarten ist."/>
+    <e k="beesrevamp_helpline_page_4_paragraph_3_text" v="Aber vorsicht, Du kannst auch ein Feld überversorgen, dies macht sich dann negativ bemerkbar, indem du wieder Ertragssbonus abgezogen bekommst." />
+    <e k="beesrevamp_helpline_page_5" v="Honig"/>
+    <e k="beesrevamp_helpline_page_5_paragraph_1_title" v="Viele Bienen machen viel Honig"/>
+    <e k="beesrevamp_helpline_page_5_paragraph_1_text" v="Die Menge an Honig wird jetzt nicht mehr davon bestimmt, welchen Bienenstock man gesetzt hat sondern von mehreren Faktoren.
+
+Bei schönem Wetter sammeln im Durchschnitt zwei Drittel der Bienen eines Bienenstocks Nektar und ein Drittel bleibt im Stock und kümmert sich um die Nachkommen und um den Nektar in Honig zu wandeln, d.h. je mehr Bienen desto mehr Nektar/Honig wird produziert.
+
+Sobald die Sonne untergegangen ist und der Flugbetrieb eingestellt wird, werden alle Bienen den Nektar in Honig umwandeln. Honig kann nur produziert werden, wie es Nektar gibt. Der Nektar wird nicht 1:1 in Honig umgewandelt. Drei Teile Nektar ergeben ein Teil Honig. Die Produktion von Honig findet in den Wintermonaten nicht statt, es wird dann nur noch Nektar gegessen.
+
+Sollte es jetzt über eine längere Zeit regnen und die Bienen können nicht ausfliegen, dann kommt kein neues Nektar in den Bienenstock und damit kann auch kein Honig produziert werden.
+
+Bienen benötigen auch Futter. Dies nehmen sie sich einfach vom gesammelten Nektar. Sollte der Nektar-Wert mal auf 0 fallen, dann werden die Bienen aber nicht sterben."/>
+    <e k="beesrevamp_helpline_page_6" v="Winterbehandlung"/>
+  </elements>
+</l10n>
