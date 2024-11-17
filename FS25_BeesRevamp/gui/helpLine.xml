@@ -3,7 +3,7 @@
   <category title="$l10n_beesrevamp_helpline_category">
     <page title="$l10n_beesrevamp_helpline_page_1">
       <paragraph>
-        <image filename="gui/helpline/helplineAtlas.png" uvs="0px 0px 1024px 368px" aspectRatio="0.35" />
+        <image filename="gui/helpline/helplineAtlas.png" uvs="0px 0px 1024px 368px" aspectRatio="0.30" />
       </paragraph>
       <paragraph>
         <title text="$l10n_beesrevamp_helpline_page_1_paragraph_2_title" />
