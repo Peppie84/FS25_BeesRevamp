@@ -167,11 +167,6 @@ function BeehiveSystemExtended:addFieldInfoExtension()
     )
 end
 
-function BeehiveSystemExtended:onFieldDataUpdateFinished(data)
-    g_brUtils:logDebug('BeehiveSystemExtended:onFieldDataUpdateFinished')
-    self.requestedFieldData = true
-end
-
 ---BeehiveSystemExtended:updateFieldInfoOverPopulation
 ---@param fieldInfo any
 ---@param startWorldX any
