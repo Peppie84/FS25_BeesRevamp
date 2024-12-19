@@ -14,16 +14,19 @@
 PlaceableBeehiveExtended = {
     MOD_NAME = g_currentModName or 'unknown',
     PATCHLIST_HIVE_COUNT_ON_RUNTIME = {
-        ['fdbb92d36d913c6951195749a923ced0'] = 1,   -- LS25 Stock BeeHiveGeneric1
-        ['617aab6ddd64e931d7cb2615a6dcfd88'] = 12,  -- LS25 Stock BeeHiveGeneric2
-        ['a46e311e30b2c796bb535a79130880ef'] = 1,   -- LS25 Stock Beehive01
-        ['5a463aa504452e923b9366803b897035'] = 4,   -- LS25 Stock Beehive02
-        ['314b6994bff1068a180931d8f8d0aca4'] = 1,   -- LS25 Stock Beehive03
-        ['11213f68a4fd2d7020e13aeca9e9d236'] = 1,   -- Stock lvl 1
-        ['215ebd1eab110e0bf84b958df9cf6695'] = 1,   -- Stock lvl 2
-        ['e549aec41dae800a1b62573075a17b13'] = 1,   -- Stock lvl 3
-        ['bff790c871a3f21560dc4578d45911f1'] = 10,  -- Stock lvl 4
-        ['6a07bd8c629f80689ce6a79e67693da5'] = 33,  -- Stock lvl 5
+        ['fdbb92d36d913c6951195749a923ced0'] = 1,    -- LS25 Stock BeeHiveGeneric1
+        ['617aab6ddd64e931d7cb2615a6dcfd88'] = 12,   -- LS25 Stock BeeHiveGeneric2
+        ['a46e311e30b2c796bb535a79130880ef'] = 1,    -- LS25 Stock Beehive01
+        ['5a463aa504452e923b9366803b897035'] = 4,    -- LS25 Stock Beehive02
+        ['314b6994bff1068a180931d8f8d0aca4'] = 1,    -- LS25 Stock Beehive03
+        ['11213f68a4fd2d7020e13aeca9e9d236'] = 1,    -- Stock lvl 1
+        ['215ebd1eab110e0bf84b958df9cf6695'] = 1,    -- Stock lvl 2
+        ['e549aec41dae800a1b62573075a17b13'] = 1,    -- Stock lvl 3
+        ['bff790c871a3f21560dc4578d45911f1'] = 10,   -- Stock lvl 4
+        ['6a07bd8c629f80689ce6a79e67693da5'] = 33,   -- Stock lvl 5
+        ['79d09dea1ea492013c71e700f6373914'] = 10,   -- https://farming-simulator.com/mod.php?mod_id=304970&title=fs2025
+        ['4b9a66f00ce22d729192c5d6cc9bbffd'] = 7,    -- https://farming-simulator.com/mod.php?mod_id=304970&title=fs2025
+        ['c4011d0e68dc43435cd5ba4c042365ce'] = 4,    -- https://farming-simulator.com/mod.php?mod_id=242870&title=fs2022
     },
     NECTAR_PER_BEE_IN_MILLILITER = 0.05,           -- 50ul (mikroliter)
     BEE_FLIGHTS_PER_HOUR = 2.0,

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<modDesc descVersion="92">
+<modDesc descVersion="94">
   <author>Peppie84</author>
   <version>1.0.0.0</version>
   <title>
@@ -28,6 +28,10 @@ Most questions can be answered by the in-game help of this mod.
 
 Yield bonus for: Canola, Sunflower
 
+Additional supported bee hives:
+- Pack Of Beehives by BarT
+- Beehives Pack by Zoli708
+
 For more information, help, and reporting issues please visit <a href='https://github.com/Peppie84/FS25_BeesRevamp'>GitHub</a>.
 ]]></en>
     <de><![CDATA[
@@ -52,6 +56,10 @@ Bitte schau Dir die Ingame-Hilfe zu dieser Mod an. Sie kann die meisten Fragen b
 
 Ertragsbonus für: Raps, Sonnenblume
 
+Zusätzlich unterstützte Bienenstöcke:
+- Bienenstock-Pack von BarT
+- Bienenstock-Paket von Zoli708
+
 Weitere Informationen, Hilfe und Probleme melden findest Du unter <a href='https://github.com/Peppie84/FS22_BeesRevamp'>GitHub</a>.
 ]]></de>
     <it><![CDATA[
@@ -75,6 +83,10 @@ La maggior parte delle domande può essere risolta dall'aiuto in-game di questa 
 - Il prezzo di vendita del miele è stato regolato
 
 Bonus di resa per: Colza, Girasole
+
+Ulteriori alveari supportati:
+- Pack Of Beehives by BarT
+- Beehives Pack by Zoli708
 
 Per ulteriori informazioni, aiuto e segnalazione di problemi, visita <a href='https://github.com/Peppie84/FS22_BeesRevamp'>GitHub</a>.
 ]]></it>

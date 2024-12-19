@@ -43,6 +43,14 @@ local function load(mission)
             ['e549aec41dae800a1b62573075a17b13'] = 500,    -- Stock lvl 3
             ['bff790c871a3f21560dc4578d45911f1'] = 4000,   -- Stock lvl 4
             ['6a07bd8c629f80689ce6a79e67693da5'] = 16000,  -- Stock lvl 5
+            ['4b9a66f00ce22d729192c5d6cc9bbffd'] = 2800,   -- https://farming-simulator.com/mod.php?mod_id=304970&title=fs2025
+            ['79d09dea1ea492013c71e700f6373914'] = 3200,   -- https://farming-simulator.com/mod.php?mod_id=304970&title=fs2025
+            ['98cdfe4ea9e2f01dac978f2892daef26'] = 200,    -- https://farming-simulator.com/mod.php?mod_id=304020&title=fs2025
+            ['c4011d0e68dc43435cd5ba4c042365ce'] = 1150,   -- https://farming-simulator.com/mod.php?mod_id=304020&title=fs2025
+            ['5f8c5339e645b43380da721a356ca8b7'] = 450,    -- https://farming-simulator.com/mod.php?mod_id=304020&title=fs2025
+            ['c1ced218e3b359f60ce4d4f38ebee163'] = 250,    -- https://farming-simulator.com/mod.php?mod_id=304020&title=fs2025
+            ['d89223518ac45b268ff5807ce19131a8'] = 320,    -- https://farming-simulator.com/mod.php?mod_id=304020&title=fs2025
+            ['9fff11e7e8c17b430f0b9a6ccf49c864'] = 400,    -- https://farming-simulator.com/mod.php?mod_id=304020&title=fs2025
         },
         PATCHLIST_YIELD_BONUS = {
             ['CANOLA']    = {
