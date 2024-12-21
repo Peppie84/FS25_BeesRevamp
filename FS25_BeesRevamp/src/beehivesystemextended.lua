@@ -309,7 +309,7 @@ function BeehiveSystemExtended:fieldAddField(data, box)
 
     local beehiveSystemExtended = g_currentMission.beehiveSystem
     local fruitTypeIndex = data.lastFruitTypeIndex
-    if fruitTypeIndex == nil then
+    if fruitTypeIndex == nil or fruitTypeIndex == 0 then
         return
     end
 
