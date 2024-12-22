@@ -57,7 +57,7 @@ local function load(mission)
         PATCHLIST_YIELD_BONUS = {
             ['CANOLA']    = {
                 ['yieldBonus'] = 0.3,
-                ['hivesPerHa'] = 3
+                ['hivesPerHa'] = 4
             },
             ['SUNFLOWER'] = {
                 ['yieldBonus'] = 0.8,
