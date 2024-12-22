@@ -45,6 +45,8 @@ local function load(mission)
             ['6a07bd8c629f80689ce6a79e67693da5'] = 16000,  -- Stock lvl 5
             ['4b9a66f00ce22d729192c5d6cc9bbffd'] = 2800,   -- https://farming-simulator.com/mod.php?mod_id=304970&title=fs2025
             ['79d09dea1ea492013c71e700f6373914'] = 3200,   -- https://farming-simulator.com/mod.php?mod_id=304970&title=fs2025
+            ['9f1b9ed23bd55b4eccff4283c8190114'] = 200,    -- https://farming-simulator.com/mod.php?mod_id=304970&title=fs2025
+            ['9ad5df30c2f68bf7ac24b1e05fc5cbbd'] = 400,    -- https://farming-simulator.com/mod.php?mod_id=304970&title=fs2025
             ['98cdfe4ea9e2f01dac978f2892daef26'] = 200,    -- https://farming-simulator.com/mod.php?mod_id=304020&title=fs2025
             ['c4011d0e68dc43435cd5ba4c042365ce'] = 1150,   -- https://farming-simulator.com/mod.php?mod_id=304020&title=fs2025
             ['5f8c5339e645b43380da721a356ca8b7'] = 450,    -- https://farming-simulator.com/mod.php?mod_id=304020&title=fs2025
