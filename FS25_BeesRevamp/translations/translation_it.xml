@@ -84,10 +84,15 @@ Nella vita reale, l'apicoltore dovrebbe controllare la colonia ogni 7 giorni tra
 
 La tabella seguente mostra quali sono i nuovi bonus di resa:
 
-Frutto             max. bonus di resa             Colonie per ettaro
+Colture             max. bonus di resa             Colonie per ettaro
 Canola               30%                            3 colonie/ha
 Girasole                 80%                        4 colonie/ha
 Patata                 0%                           -
+
+Alcune colture non vengono impollinate direttamente dalle api perché sono autoimpollinanti. Tuttavia, molti studi dimostrano che l'impollinazione incrociata, ovvero il trasferimento del polline da una pianta all'altra, può anche aumentare la resa delle piante autoimpollinanti. Tra queste rientrano le seguenti colture:
+
+Colture             max. bonus di resa             Colonie per ettaro
+Cotone               35%                       3 colonie/ha
 
 Le colonie di api con lo stato: colonia giovane sono completamente escluse da questo calcolo. Questo impedisce di posizionare le colonie di api sul campo poco prima del raccolto e quindi ricevere un bonus."/>
     <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="Le informazioni sul campo ora ti mostrano quante colonie di api sono vicine al campo, che siano tue o di altri giocatori, e quale bonus di resa puoi aspettarti."/>

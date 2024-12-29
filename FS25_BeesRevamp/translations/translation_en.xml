@@ -83,10 +83,15 @@ In real life, the beekeeper should check the colony every 7 days between March a
 
 The following table shows what the new yield bonuses are:
 
-Fruit             max. yield bonus             Colonies per hectare
+Crops             max. yield bonus             Colonies per hectare
 Canola                        30%                            3 colonies/ha
 Sunflower           80%                        4 colonies/ha
 Potato                    0%                           -
+
+Some crops are not directly pollinated by honeybees because they are self-pollinating. However, many studies show that cross-pollination, transferring pollen from one plant to another, can also increase the yield of self-pollinating plants. These include the following crops:
+
+Crops             max. yield bonus             Colonies per hectare
+Cotton               35%                       3 colonies/ha
 
 Bee colonies with the status: young colony are completely excluded from this calculation. This prevents you from placing the bee colonies on the field shortly before the harvest and thus receiving a bonus."/>
     <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="The field info now shows you how many bee colonies are near the field, whether your own or those of other players, and what yield bonus you can expect."/>

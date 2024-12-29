@@ -67,6 +67,10 @@ local function load(mission)
                 ['yieldBonus'] = 0,
                 ['hivesPerHa'] = 0
             },
+            ['COTTON']    = {
+                ['yieldBonus'] = 0.35,
+                ['hivesPerHa'] = 3
+            },
         }
     }
 

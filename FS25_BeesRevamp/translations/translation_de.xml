@@ -88,6 +88,11 @@ Raps                        30%                            3 Völker/ha
 Sonnenblume           80%                        4 Völker/ha
 Kartoffel                    0%                           -
 
+Einige Früchte werden nicht direkt von Honigbienen besteubt, da sie Selbstbesteuber sind. Aber viele Untersuchungen zeigen, dass durch eine Kreuzbesteubung, Pollen von einer Pflanzen zur anderen, ebenfalls bei Selbstbesteuber eine Ertragssteigerung bringen kann. Hierzu zählen folgende Früchte:
+
+Frucht            max. Ertragsbonus            Völker pro Hektar
+Baumwolle               35%                       3 Völker/ha
+
 Bienenvölker im Status: Jungvolk, fallen aus dieser Berechnung komplett raus. Somit wird verhindert, dass man die Bienenvölker kurz vor der Ernte an das Feld stellt und somit einen Bonus bekommt."/>
     <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="In der Feldinfo bekommst du nun auch angezeigt wie viele Bienenvölker sich in Feldnähe befinden, egal ob die eigenen oder von anderen Mitspielern und welcher Ertragsbonus zu erwarten ist."/>
     <e k="beesrevamp_helpline_page_4_paragraph_3_text" v="Aber vorsicht, Du kannst auch ein Feld überversorgen, dies macht sich dann negativ bemerkbar, indem du wieder Ertragssbonus abgezogen bekommst." />
