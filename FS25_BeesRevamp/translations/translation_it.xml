@@ -93,6 +93,7 @@ Alcune colture non vengono impollinate direttamente dalle api perché sono autoi
 
 Colture             max. bonus di resa             Colonie per ettaro
 Cotone               35%                       3 colonie/ha
+Fagiolo di soia               18%                       2 colonie/ha
 
 Le colonie di api con lo stato: colonia giovane sono completamente escluse da questo calcolo. Questo impedisce di posizionare le colonie di api sul campo poco prima del raccolto e quindi ricevere un bonus."/>
     <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="Le informazioni sul campo ora ti mostrano quante colonie di api sono vicine al campo, che siano tue o di altri giocatori, e quale bonus di resa puoi aspettarti."/>

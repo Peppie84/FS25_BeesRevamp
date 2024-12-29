@@ -71,6 +71,10 @@ local function load(mission)
                 ['yieldBonus'] = 0.35,
                 ['hivesPerHa'] = 3
             },
+            ['SOYBEAN']    = {
+                ['yieldBonus'] = 0.18,
+                ['hivesPerHa'] = 2
+            },
         }
     }
 

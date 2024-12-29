@@ -92,6 +92,7 @@ Einige Früchte werden nicht direkt von Honigbienen besteubt, da sie Selbstbeste
 
 Frucht            max. Ertragsbonus            Völker pro Hektar
 Baumwolle               35%                       3 Völker/ha
+Sojabohne               18%                       2 Völker/ha
 
 Bienenvölker im Status: Jungvolk, fallen aus dieser Berechnung komplett raus. Somit wird verhindert, dass man die Bienenvölker kurz vor der Ernte an das Feld stellt und somit einen Bonus bekommt."/>
     <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="In der Feldinfo bekommst du nun auch angezeigt wie viele Bienenvölker sich in Feldnähe befinden, egal ob die eigenen oder von anderen Mitspielern und welcher Ertragsbonus zu erwarten ist."/>
