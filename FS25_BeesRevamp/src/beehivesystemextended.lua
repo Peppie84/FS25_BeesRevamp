@@ -112,7 +112,7 @@ function BeehiveSystemExtended:getBeehiveInfluenceFactorAt(wx, wz)
         return 0
     end
 
-    local totalFieldArea = farmLand.totalFieldArea or farmLand.areaInHa
+    local totalFieldArea = (farmLand.field ~= nil and farmLand.field.areaHa) or farmLand.areaInHa or farmLand.totalFieldArea
     if totalFieldArea == nil then
         return 0
     end
