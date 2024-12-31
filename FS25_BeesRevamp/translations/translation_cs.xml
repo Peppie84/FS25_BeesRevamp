@@ -23,6 +23,7 @@
     <e k="beesrevamp_beehivesystemextended_info_influenced_hive_plural" v="经济蜂群"/>
     <e k="beesrevamp_beehivesystemextended_info_title_bee_bonus_is_shrinking" v="供应过剩！"/>
     <e k="beesrevamp_beehivesystemextended_info_bee_bonus_is_shrinking" v="蜜蜂增益减少"/>
+    <e k="beesrevamp_beecare_warning_hive_placement_only_in_spring_and_summer" v="蜂箱只能在春季或夏季放置！"/>
 
     <!-- 帮助信息 -->
     <e k="beesrevamp_helpline_category" v="蜜蜂改进"/>
@@ -54,7 +55,7 @@
 - Dennis (Peppie84)"/>
     <e k="beesrevamp_helpline_page_2" v="蜜蜂行为"/>
     <e k="beesrevamp_helpline_page_2_paragraph_1_title" v="万事开头难..."/>
-    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="蜂群从小规模开始。您放置蜂巢后，蜂群状态为：年轻蜂群。"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="蜂群从小规模开始。您放置蜂巢后，蜂群状态为：年轻蜂群。 为了让年轻的蜂群全年发育，蜂箱只能在春季或夏季放置。"/>
     <e k="beesrevamp_helpline_page_2_paragraph_2_text" v="年轻蜂群需要大约1年的时间才能成长为经济蜂群，只有这样才能为您生产蜂蜜。
 
 每个蜂群在放置时会生成一个随机的蜜蜂数量，并且每年都会重新生成。蜜蜂数量会在3月至7月期间增长，在冬季减少。在蜂巢的信息显示中，您还可以看到蜜蜂已采集的未处理花蜜量。蜜蜂采集的是花蜜，而不是蜂蜜，并在蜂巢中将花蜜转化为蜂蜜。有关蜂蜜的更多信息，请参见“蜂蜜”部分。"/>

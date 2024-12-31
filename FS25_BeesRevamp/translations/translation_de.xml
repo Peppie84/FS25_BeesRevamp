@@ -23,6 +23,7 @@
     <e k="beesrevamp_beehivesystemextended_info_influenced_hive_plural" v="Wirt.Völker"/>
     <e k="beesrevamp_beehivesystemextended_info_title_bee_bonus_is_shrinking" v="Überversorgt!"/>
     <e k="beesrevamp_beehivesystemextended_info_bee_bonus_is_shrinking" v="Bienen Bonus schrumpft"/>
+    <e k="beesrevamp_beecare_warning_hive_placement_only_in_spring_and_summer" v="Bienenstöcke können nur im Frühling oder Sommer platziert werden!"/>
 
     <!-- HelpLine -->
     <e k="beesrevamp_helpline_category" v="Bees Revamp"/>
@@ -54,7 +55,7 @@ Ich wünsche euch allen viel Spaß mit der Mod.
 - Dennis (Peppie84)"/>
     <e k="beesrevamp_helpline_page_2" v="Bienen verhalten"/>
     <e k="beesrevamp_helpline_page_2_paragraph_1_title" v="Alles fängt mal klein an ..."/>
-    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="Auch ein Bienenvolk fängt klein an. Sobald Du ein Bienenstock platzierst, fängt das Volk im Status: Jungvolk an."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="Auch ein Bienenvolk fängt klein an. Sobald Du ein Bienenstock platzierst, fängt das Volk im Status: Jungvolk an. Damit sich das Jungvolk über das Jahr entwickeln kann, können Bienenstöcke nur im Frühling oder Sommer platziert werden."/>
     <e k="beesrevamp_helpline_page_2_paragraph_2_text" v="Ein Jungvolk benötigt etwa 1 Jahr bis es zu einem Wirtsschaftsvolk herangewachsen ist und erst dann wird es Dir auch Honig bringen.
 
 Jedes Volk hat eine zufällige Menge an Bienen sobald es platziert wird und wird jedes Jahr neu ausgewürfelt. Die Bienenpopulation wächst über den Zeitrtraum von Mär-Jul und nimmt zum Winter wieder ab. In der Infoanzeige eines Bienenstocks kannst du auch sehen wie viel Nektar die Bienen gesammelt und noch nicht verarbeitet, haben. Bienen sammeln keinen Honig, sondern Nektar und wandeln diesen im Stock in Honig um. Mehr dazu unter Honig"/>

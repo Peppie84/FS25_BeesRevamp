@@ -63,6 +63,7 @@ end
 function BeeCare.registerOverwrittenFunctions(placeableType)
     SpecializationUtil.registerOverwrittenFunction(placeableType, 'updateInfo', BeeCare.updateInfo)
     SpecializationUtil.registerOverwrittenFunction(placeableType, 'updateBeehiveState', BeeCare.updateBeehiveState)
+    SpecializationUtil.registerOverwrittenFunction(placeableType, "canBuy", BeeCare.canBuy)
 end
 
 -------------------------------------------------------------------------------
@@ -549,4 +550,15 @@ function BeeCare:updateInfo(overwrittenFunc, infoTable)
     end
 
     overwrittenFunc(self, infoTable)
+end
+
+---Can buy
+function BeeCare:canBuy(overwrittenFunc)
+    local spec = self.spec_beecare
+
+	if spec.environment.currentSeason == Season.WINTER or spec.environment.currentSeason == Season.AUTUMN then
+		return false, g_brUtils:getModText('beesrevamp_beecare_warning_hive_placement_only_in_spring_and_summer')
+    end
+
+    return overwrittenFunc(self)
 end

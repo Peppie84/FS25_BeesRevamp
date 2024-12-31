@@ -43,7 +43,7 @@ function BeehiveSystemExtended:updateState()
     self.isProductionActive = true
 
     local isRaining = environment.weather:getIsRaining()
-    local isTemperaturToFly = environment.weather:getCurrentTemperature() > 10
+    local isTemperaturToFly = environment.weather:getCurrentTemperature() >= 10
     local isSunOn = environment.isSunOn
     local isWinterSeason = environment.currentSeason == Season.WINTER
 
