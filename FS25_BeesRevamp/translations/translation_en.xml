@@ -23,6 +23,7 @@
     <e k="beesrevamp_beehivesystemextended_info_influenced_hive_plural" v="Eco. Hives"/>
     <e k="beesrevamp_beehivesystemextended_info_title_bee_bonus_is_shrinking" v="Oversupplied!"/>
     <e k="beesrevamp_beehivesystemextended_info_bee_bonus_is_shrinking" v="Bee bonus shrinks"/>
+    <e k="beesrevamp_beecare_warning_hive_placement_only_in_spring_and_summer" v="Beehives can only be placed in spring or summer!"/>
 
     <!-- HelpLine -->
     <e k="beesrevamp_helpline_category" v="Bees Revamp"/>
@@ -54,7 +55,7 @@ I hope you all have fun with this mod.
 - Dennis (Peppie84)"/>
     <e k="beesrevamp_helpline_page_2" v="Bee behavior"/>
     <e k="beesrevamp_helpline_page_2_paragraph_1_title" v="Everything starts small..."/>
-    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="A bee colony also starts small. As soon as you place a beehive, the colony starts with the status: young colony."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="A bee colony also starts small. As soon as you place a beehive, the colony starts with the status: young colony. In order for the young colony to develop over the year, beehives can only be placed in spring or summer."/>
     <e k="beesrevamp_helpline_page_2_paragraph_2_text" v="A young colony needs about 1 year to grow into a economy colony and only then will it produce honey for you.
 
 Each colony has a random number of bees as soon as it is placed and is re-rolled every year. The bee population grows over the period from March to July and decreases again in winter. In the information display of a beehive you can also see how much nectar the bees have collected and have not yet processed. Bees do not collect honey, but nectar and convert it into honey in the hive. More on this under Honey"/>
@@ -83,10 +84,16 @@ In real life, the beekeeper should check the colony every 7 days between March a
 
 The following table shows what the new yield bonuses are:
 
-Fruit             max. yield bonus             Colonies per hectare
+Crops             max. yield bonus             Colonies per hectare
 Canola                        30%                            3 colonies/ha
 Sunflower           80%                        4 colonies/ha
 Potato                    0%                           -
+
+Some crops are not directly pollinated by honeybees because they are self-pollinating. However, many studies show that cross-pollination, transferring pollen from one plant to another, can also increase the yield of self-pollinating plants. These include the following crops:
+
+Crops             max. yield bonus             Colonies per hectare
+Cotton               35%                       3 colonies/ha
+Soybean               18%                       2 colonies/ha
 
 Bee colonies with the status: young colony are completely excluded from this calculation. This prevents you from placing the bee colonies on the field shortly before the harvest and thus receiving a bonus."/>
     <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="The field info now shows you how many bee colonies are near the field, whether your own or those of other players, and what yield bonus you can expect."/>

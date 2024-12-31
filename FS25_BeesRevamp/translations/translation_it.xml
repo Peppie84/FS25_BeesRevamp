@@ -23,6 +23,7 @@
     <e k="beesrevamp_beehivesystemextended_info_influenced_hive_plural" v="Colonie eco."/>
     <e k="beesrevamp_beehivesystemextended_info_title_bee_bonus_is_shrinking" v="Sovrabbondanza!"/>
     <e k="beesrevamp_beehivesystemextended_info_bee_bonus_is_shrinking" v="Il bonus api si riduce"/>
+    <e k="beesrevamp_beecare_warning_hive_placement_only_in_spring_and_summer" v="Gli alveari possono essere posizionati solo in primavera o in estate!"/>
 
     <!-- HelpLine -->
     <e k="beesrevamp_helpline_category" v="Bees Revamp"/>
@@ -54,7 +55,7 @@ Spero che tutti vi divertiate con questo mod.
 - Dennis (Peppie84)"/>
     <e k="beesrevamp_helpline_page_2" v="Comportamento delle api"/>
     <e k="beesrevamp_helpline_page_2_paragraph_1_title" v="Tutto inizia in piccolo..."/>
-    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="Anche una colonia di api inizia in piccolo. Non appena posizioni un'arnia, la colonia inizia con lo stato: colonia giovane."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="Anche una colonia di api inizia in piccolo. Non appena posizioni un'arnia, la colonia inizia con lo stato: colonia giovane. Affinché la giovane colonia possa svilupparsi nel corso dell'anno, gli alveari possono essere posizionati solo in primavera o in estate."/>
     <e k="beesrevamp_helpline_page_2_paragraph_2_text" v="Una colonia giovane ha bisogno di circa 1 anno per crescere in una colonia economica e solo allora produrrà miele per te.
 
 Ogni colonia ha un numero casuale di api non appena viene posizionata e viene ricalcolato ogni anno. La popolazione di api cresce nel periodo da marzo a luglio e diminuisce di nuovo in inverno. Nella visualizzazione delle informazioni di un'arnia puoi anche vedere quanto nettare le api hanno raccolto e non hanno ancora elaborato. Le api non raccolgono miele, ma nettare e lo convertono in miele nell'arnia. Maggiori informazioni su questo sotto Miele"/>
@@ -84,10 +85,16 @@ Nella vita reale, l'apicoltore dovrebbe controllare la colonia ogni 7 giorni tra
 
 La tabella seguente mostra quali sono i nuovi bonus di resa:
 
-Frutto             max. bonus di resa             Colonie per ettaro
+Colture             max. bonus di resa             Colonie per ettaro
 Canola               30%                            3 colonie/ha
 Girasole                 80%                        4 colonie/ha
 Patata                 0%                           -
+
+Alcune colture non vengono impollinate direttamente dalle api perché sono autoimpollinanti. Tuttavia, molti studi dimostrano che l'impollinazione incrociata, ovvero il trasferimento del polline da una pianta all'altra, può anche aumentare la resa delle piante autoimpollinanti. Tra queste rientrano le seguenti colture:
+
+Colture             max. bonus di resa             Colonie per ettaro
+Cotone               35%                       3 colonie/ha
+Fagiolo di soia               18%                       2 colonie/ha
 
 Le colonie di api con lo stato: colonia giovane sono completamente escluse da questo calcolo. Questo impedisce di posizionare le colonie di api sul campo poco prima del raccolto e quindi ricevere un bonus."/>
     <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="Le informazioni sul campo ora ti mostrano quante colonie di api sono vicine al campo, che siano tue o di altri giocatori, e quale bonus di resa puoi aspettarti."/>

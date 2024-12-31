@@ -23,6 +23,7 @@
     <e k="beesrevamp_beehivesystemextended_info_influenced_hive_plural" v="Eco. Úly"/>
     <e k="beesrevamp_beehivesystemextended_info_title_bee_bonus_is_shrinking" v="Nadměrně zásobeno!"/>
     <e k="beesrevamp_beehivesystemextended_info_bee_bonus_is_shrinking" v="Bonus se zmenšuje"/>
+    <e k="beesrevamp_beecare_warning_hive_placement_only_in_spring_and_summer" v="Úly lze umístit pouze na jaře nebo v létě!"/>
 
     <!-- HelpLine -->
     <e k="beesrevamp_helpline_category" v="Renovace včel"/>
@@ -54,7 +55,7 @@ Doufám, že se s tímto modem všichni pobavíte.
 - Dennis (Peppie84)"/>
     <e k="beesrevamp_helpline_page_2" v="Chování včel"/>
     <e k="beesrevamp_helpline_page_2_paragraph_1_title" v="Všechno začíná v malém ..."/>
-    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="Včelstvo také začíná v malém. Jakmile umístíte úl, včelstvo začíná stavem: mladé včelstvo."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="Včelstvo také začíná v malém. Jakmile umístíte úl, včelstvo začíná stavem: mladé včelstvo. Aby se mladé včelstvo během roku vyvíjelo, lze úly umisťovat pouze na jaře nebo v létě."/>
     <e k="beesrevamp_helpline_page_2_paragraph_2_text" v="Mladá včelstva potřebuje asi 1 rok, aby vyrostla v ekonomickou kolonii a teprve poté vám bude produkovat med.
 
 Každé včelstvo má náhodný počet včel, jakmile je umístěno, a každý rok se převaluje. Včelí populace v období od března do července roste a v zimě opět klesá. Na informačním displeji úlu můžete také vidět, kolik nektaru včely nasbíraly a ještě nezpracovaly. Včely nesbírají med, ale nektar a v úlu ho přeměňují na med. Více o tom pod Med"/>
@@ -86,7 +87,13 @@ Následující tabulka ukazuje, jaké jsou nové výnosové bonusy:
 Plodina            max. bonus k výnosu             kolonie na hektar
 Řepka                      30%                        3 kolonie/ha
 Slunečnice                 80%                        4 kolonie/ha
-Brambory                   0%                           -
+Brambory                   0%                         -
+
+Některé plodiny nejsou přímo opylovány včelami, protože jsou samosprašné. Mnoho studií však ukazuje, že cizosprašné opylení neboli přenos pylu z jedné rostliny na druhou může také zvýšit výnos samosprašných rostlin. Patří sem následující plodiny:
+
+Plodina            max. bonus k výnosu             kolonie na hektar
+Bavlna                     35%                        3 kolonie/ha
+Sójové boby                18%                        2 kolonie/ha
 
 Včelstva se statusem: mladé včelstvo jsou z tohoto výpočtu zcela vyloučena. To vám zabrání umístit včelstva na pole krátce před sklizní a získat tak bonus."/>
     <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="Informace o poli vám nyní ukazují, kolik včelstev je v blízkosti pole, ať už vašich vlastních nebo jiných hráčů, a jaký bonus k výnosu můžete očekávat."/>

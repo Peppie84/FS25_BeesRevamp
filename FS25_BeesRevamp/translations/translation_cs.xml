@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+  <translationContributors>orangestar254</translationContributors>
+  <elements>
+    <e k="beesrevamp_beecare_info_title_oxusim" v="冬季处理"/>
+    <e k="beesrevamp_beecare_info_title_swarm_pressure" v="分蜂压力"/>
+    <e k="beesrevamp_beecare_info_title_bee_population" v="蜜蜂数量"/>
+    <e k="beesrevamp_beecare_info_title_state" v="状态"/>
+    <e k="beesrevamp_beecare_info_bee_population_format" v="%s 只蜜蜂"/>
+    <e k="beesrevamp_beecare_do_swarm_control" v="执行分蜂控制"/>
+    <e k="beesrevamp_beecare_state_economic_hive" v="经济蜂群"/>
+    <e k="beesrevamp_beecare_state_young_hive" v="年轻蜂群"/>
+    <e k="beesrevamp_beecare_state_dead_hive" v="死亡蜂群"/>
+    <e k="beesrevamp_beecare_state_additional_swarmed" v="已分蜂"/>
+    <e k="beesrevamp_beecare_common_state_on" v="是"/>
+    <e k="beesrevamp_beecare_common_state_off" v="否"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_title_nectar" v="花蜜"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_nectar_format" v="%s 升"/>
+    <e k="beesrevamp_placeablebeehiveextended_info_title_hives" v="蜂群"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_by_bees" v="受蜜蜂影响"/>
+    <e k="beesrevamp_beehivesystemextended_info_bee_bonus" v="蜜蜂增益"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_hive_singular" v="经济蜂群"/>
+    <e k="beesrevamp_beehivesystemextended_info_influenced_hive_plural" v="经济蜂群"/>
+    <e k="beesrevamp_beehivesystemextended_info_title_bee_bonus_is_shrinking" v="供应过剩！"/>
+    <e k="beesrevamp_beehivesystemextended_info_bee_bonus_is_shrinking" v="蜜蜂增益减少"/>
+    <e k="beesrevamp_beecare_warning_hive_placement_only_in_spring_and_summer" v="蜂箱只能在春季或夏季放置！"/>
+
+    <!-- 帮助信息 -->
+    <e k="beesrevamp_helpline_category" v="蜜蜂改进"/>
+    <e k="beesrevamp_helpline_page_1" v="概述"/>
+    <e k="beesrevamp_helpline_page_1_paragraph_2_title" v="欢迎使用蜜蜂改进模组"/>
+    <e k="beesrevamp_helpline_page_1_paragraph_2_text" v="使用此模组，Farming Simulator 25 中的蜜蜂变得更加逼真，也更加复杂，但也更加高效。
+
+我是一名业余养蜂人，目前有 10 个蜂群，遗憾的是 Farming Simulator 中很少有人玩蜜蜂。这就是我在 2023 年开始开发此模组的原因。
+
+所有值和变化都经过科学证明和/或可能略有调整，以免它们成为完全的乐趣杀手。重点永远是玩乐。
+
+- 蜂群的两种状态（年轻蜂群和经济蜂群）
+- 只有经济蜂群可以生产蜂蜜
+- 蜜蜂采集花蜜
+- 只有在天气良好的情况下，蜜蜂才会采集
+- 花蜜会被转化为蜂蜜
+- 蜜蜂会消耗花蜜
+- 蜂巢的范围得到扩展
+- 授粉效果得到提升
+- 蜂巢中的蜜蜂数量可变
+- 分蜂季节为每年的3月至7月
+- 蜂巢的价格进行了调整
+- 蜂蜜的销售价格进行了调整
+
+有关更多信息、帮助和问题报告，请访问此模组的GitHub页面：https://github.com/Peppie84/FS25_BeesRevamp
+
+希望大家能享受这款模组的乐趣。
+
+- Dennis (Peppie84)"/>
+    <e k="beesrevamp_helpline_page_2" v="蜜蜂行为"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_title" v="万事开头难..."/>
+    <e k="beesrevamp_helpline_page_2_paragraph_1_text" v="蜂群从小规模开始。您放置蜂巢后，蜂群状态为：年轻蜂群。 为了让年轻的蜂群全年发育，蜂箱只能在春季或夏季放置。"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_2_text" v="年轻蜂群需要大约1年的时间才能成长为经济蜂群，只有这样才能为您生产蜂蜜。
+
+每个蜂群在放置时会生成一个随机的蜜蜂数量，并且每年都会重新生成。蜜蜂数量会在3月至7月期间增长，在冬季减少。在蜂巢的信息显示中，您还可以看到蜜蜂已采集的未处理花蜜量。蜜蜂采集的是花蜜，而不是蜂蜜，并在蜂巢中将花蜜转化为蜂蜜。有关蜂蜜的更多信息，请参见“蜂蜜”部分。"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_3_title" v="如果天气不好，蜜蜂不会出巢"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_3_text" v="蜜蜂出巢的条件包括：
+- 日出后
+- 温度至少为10℃
+- 无降雨
+- 非冬季
+
+此外，蜜蜂的采集范围也得到了大幅扩展。现实中，蜜蜂在半径3公里内采集，因此游戏中的范围扩大到500米。"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_4_text" v="还有一些蜂巢可以容纳多个蜂群，例如10个朗斯特罗斯蜂巢。然而，目前并未模拟10个独立蜂群，而是将其作为一个蜂群来计算。蜂群数量则用于后续的产量奖励计算。"/>
+    <e k="beesrevamp_helpline_page_2_paragraph_5_text" v="现在，蜂群会每小时消耗采集的花蜜。但不用担心，即使花蜜值降至0，蜜蜂也不会饿死。不过，如果长期下雨而无法外出采集，蜂蜜产量会受到当年显著影响。"/>
+    <e k="beesrevamp_helpline_page_3" v="分蜂"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_1_title" v="蜂巢空间不足时，蜜蜂会分蜂"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_1_text" v="每年3月至7月期间，蜂群快速增长。如果养蜂人未及时扩展蜂巢，空间会变得拥挤。此外，蜜蜂可能因为‘无聊’而想要分蜂。"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_2_text" v="分蜂是蜂群的自然分裂。对养蜂人而言，这意味着当年蜂蜜产量会受到影响，因为约一半的蜜蜂离巢。
+
+在现实中，养蜂人应在3月至7月期间每7天检查一次蜂群；而在游戏中，每月检查一次即可。有25%的几率某些蜂群不会产生‘分蜂压力’。"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_3_text" v="您需要走到每个蜂巢前，查看是否有‘分蜂压力’，并按‘R’执行操作。如果您以多日为一个月游戏，也可以在整个月内进行分蜂控制。"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_4_title" v="蜂群已分蜂"/>
+    <e k="beesrevamp_helpline_page_3_paragraph_4_text" v="如果蜂群分蜂，50%的蜜蜂会离巢，导致当年剩余时间内蜂蜜产量减少。此状态将在年末重置。"/>
+    <e k="beesrevamp_helpline_page_4" v="产量奖励"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_1_title" v="作物的全新产量奖励"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_1_text" v="通过本模组，您需要为每公顷田地配置一定数量的蜂群，才能获得良好的产量奖励。
+
+以下是新的产量奖励表：
+
+作物               最大产量奖励               每公顷蜂群数
+油菜               30%                        3个蜂群/公顷
+向日葵             80%                        4个蜂群/公顷
+土豆               0%                         -
+
+有些作物不是由蜜蜂直接授粉的，因为它们是自花授粉的。然而，许多研究表明，异花授粉，即从一株植物向另一株植物转移花粉，也可以增加自花授粉植物的产量。这些作物包括以下作物：
+
+作物               最大产量奖励               每公顷蜂群数
+鲍姆沃尔           35%                        3个蜂群/公顷
+索贾博内           18%                        2个蜂群/公顷
+
+状态为‘年轻蜂群’的蜂群完全被排除在此计算之外。这防止了玩家在收获前短时间内将蜂群放置到田间以获得额外奖励。"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_2_text" v="田间信息现在会显示有多少蜂群接近田地，无论是您自己的还是其他玩家的蜂群，并显示可获得的产量奖励。"/>
+    <e k="beesrevamp_helpline_page_4_paragraph_3_text" v="但要注意，蜂群过多也会对田地产生负面影响，导致产量奖励再次减少。"/>
+    <e k="beesrevamp_helpline_page_5" v="蜂蜜"/>
+    <e k="beesrevamp_helpline_page_5_paragraph_1_title" v="蜜蜂越多，蜂蜜越多"/>
+    <e k="beesrevamp_helpline_page_5_paragraph_1_text" v="蜂蜜的产量不再仅由您放置的蜂巢类型决定，而是由多个因素决定。
+
+在天气良好的情况下，蜂巢中大约三分之二的蜜蜂会外出采集花蜜，剩下的三分之一会留在蜂巢中照顾幼蜂并将花蜜转化为蜂蜜。因此，蜜蜂数量越多，采集的花蜜和生产的蜂蜜就越多。
+
+日落后，蜜蜂停止飞行，全部开始将花蜜转化为蜂蜜。只有当蜂巢中有花蜜时，才能生产蜂蜜。花蜜与蜂蜜的转化比例为3:1。转化过程在冬季会停止，蜜蜂只会消耗花蜜。
+
+如果长时间下雨，蜜蜂无法外出采集新花蜜，蜂巢中也无法生产蜂蜜。
+
+蜜蜂也需要食物。它们直接从采集的花蜜中获取。如果花蜜值降到0，蜜蜂不会死亡。"/>
+    <e k="beesrevamp_helpline_page_6" v="冬季处理"/>
+  </elements>
+</l10n>

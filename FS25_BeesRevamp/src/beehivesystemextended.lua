@@ -43,7 +43,7 @@ function BeehiveSystemExtended:updateState()
     self.isProductionActive = true
 
     local isRaining = environment.weather:getIsRaining()
-    local isTemperaturToFly = environment.weather:getCurrentTemperature() > 10
+    local isTemperaturToFly = environment.weather:getCurrentTemperature() >= 10
     local isSunOn = environment.isSunOn
     local isWinterSeason = environment.currentSeason == Season.WINTER
 
@@ -112,7 +112,7 @@ function BeehiveSystemExtended:getBeehiveInfluenceFactorAt(wx, wz)
         return 0
     end
 
-    local totalFieldArea = farmLand.totalFieldArea or farmLand.areaInHa
+    local totalFieldArea = (farmLand.field ~= nil and farmLand.field.areaHa) or farmLand.areaInHa or farmLand.totalFieldArea
     if totalFieldArea == nil then
         return 0
     end
@@ -167,11 +167,6 @@ function BeehiveSystemExtended:addFieldInfoExtension()
     )
 end
 
-function BeehiveSystemExtended:onFieldDataUpdateFinished(data)
-    g_brUtils:logDebug('BeehiveSystemExtended:onFieldDataUpdateFinished')
-    self.requestedFieldData = true
-end
-
 ---BeehiveSystemExtended:updateFieldInfoOverPopulation
 ---@param fieldInfo any
 ---@param startWorldX any
@@ -182,15 +177,15 @@ end
 ---@param heightWorldZ any
 ---@param isColorBlindMode any
 function BeehiveSystemExtended:updateFieldInfoOverPopulation(fieldInfo, startWorldX, startWorldZ, widthWorldX, widthWorldZ, heightWorldX, heightWorldZ, isColorBlindMode)
-    if g_farmlandManager:getOwnerIdAtWorldPosition(startWorldX, startWorldZ) ~= self.mission.player.farmId then
+    if g_farmlandManager:getOwnerIdAtWorldPosition(startWorldX, startWorldZ) ~= g_localPlayer.farmId then
         return nil
     end
 
-    local player = g_currentMission.player
+    local positionX, positionY, positionZ = g_localPlayer.getPosition()
 
     local farmLand = g_farmlandManager:getFarmlandAtWorldPosition(
-        player.baseInformation.lastPositionX,
-        player.baseInformation.lastPositionZ
+        positionX,
+        positionZ
     )
 
     if farmLand == nil then
@@ -230,10 +225,11 @@ end
 ---@param heightWorldZ any
 ---@param isColorBlindMode any
 function BeehiveSystemExtended:updateFieldInfoDisplayBeeBonus(fieldInfo, startWorldX, startWorldZ, widthWorldX, widthWorldZ, heightWorldX, heightWorldZ, isColorBlindMode)
-    local player = self.mission.player
-    if g_farmlandManager:getOwnerIdAtWorldPosition(startWorldX, startWorldZ) ~= player.farmId then
+    if g_farmlandManager:getOwnerIdAtWorldPosition(startWorldX, startWorldZ) ~= g_localPlayer.farmId then
         return nil
     end
+
+    local positionX, positionY, positionZ = g_localPlayer.getPosition()
 
     if (g_currentMission.environment.timeUpdateTime-self.lastFieldUpdateCache) > 1000 then
         return nil
@@ -248,8 +244,8 @@ function BeehiveSystemExtended:updateFieldInfoDisplayBeeBonus(fieldInfo, startWo
     local fruitYieldBonus = self:getYieldBonusByFruitName(fruitType.name)
 
     local beeHiveYieldBonusAtPlayerPosition = g_currentMission.beehiveSystem:getBeehiveInfluenceFactorAt(
-        player.baseInformation.lastPositionX,
-        player.baseInformation.lastPositionZ
+        positionX,
+        positionZ
     ) * fruitType.beeYieldBonusPercentage
 
     fieldInfo.beeHiveYieldBonusAtPlayerPosition = beeHiveYieldBonusAtPlayerPosition
@@ -275,7 +271,7 @@ end
 ---@param isColorBlindMode any
 function BeehiveSystemExtended:updateFieldInfoDisplayInfluenced(fieldInfo, startWorldX, startWorldZ, widthWorldX, widthWorldZ,
                                                        heightWorldX, heightWorldZ, isColorBlindMode)
-    if g_farmlandManager:getOwnerIdAtWorldPosition(startWorldX, startWorldZ) ~= self.mission.player.farmId then
+    if g_farmlandManager:getOwnerIdAtWorldPosition(startWorldX, startWorldZ) ~= g_localPlayer.farmId then
         return nil
     end
 
@@ -305,16 +301,15 @@ end
 ---@param data table
 ---@param box table InfoBox
 function BeehiveSystemExtended:fieldAddField(data, box)
-    local player = g_currentMission.hud.player
-    local positionX, positionY, positionZ = player.getPosition()
+    local positionX, positionY, positionZ = g_localPlayer.getPosition()
 
-    if g_farmlandManager:getOwnerIdAtWorldPosition(positionX, positionZ) ~= player.farmId then
+    if g_farmlandManager:getOwnerIdAtWorldPosition(positionX, positionZ) ~= g_localPlayer.farmId then
         return
     end
 
     local beehiveSystemExtended = g_currentMission.beehiveSystem
     local fruitTypeIndex = data.lastFruitTypeIndex
-    if fruitTypeIndex == nil then
+    if fruitTypeIndex == nil or fruitTypeIndex == 0 then
         return
     end
 
